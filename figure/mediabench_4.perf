@@ -1,0 +1,41 @@
+=cluster;l1=32kB,l2=1MB;l1=64kB,l2=1MB;l1=32kB,l2=2MB
+colors=black,yellow,red
+ylabel=Speedup
+ymax=1.012
+ymin=0.995
+#specify the width and height of the generated bar graph
+figsize=70,15
+rotateby=-90
+fontsize=70
+x_label_size=70
+y_label_size=90
+=horizontal_legend
+legend_loc=upper left
+groupfont=90
+group_rotateby=0
+supergroupfont=90
+ncol=1
+=valuelabel
+grid_linewidth=2
+
+=table,
+supergroup=mediabench
+adpcmdecode,1.0,1.0004315199138376,1.0
+adpcmencode,1.0,1.0001950988313477,1.0
+epic,1.0,1.002004656633579,1.0003486466366056
+unepic,1.0,1.0073306133581124,1.000014517314171
+g721decode,1.0,1.0001609101189861,1.0
+g721encode,1.0,1.0002542828916585,1.0
+ghostsript,1.0,1.0035204252774437,1.0015640696179537
+gsmdecode,1.0,1.0000848027124905,1.0
+gsmencode,1.0,1.00003369190554,1.0
+jpegdecode,1.0,1.011583243989191,1.0
+jpegencode,1.0,1.007961067843808,1.0
+mesamipmap,1.0,1.0029247947134492,1.0051213367329548
+mesaosdemo,1.0,1.0043204776970118,1.0064895279796187
+mesatexgen,1.0,1.0048630390724524,1.0037322841788754
+mpeg2decode,1.0,1.0009787329872362,1.0
+mpeg2encode,1.0,1.0003195529849103,1.0006961119517381
+gmean,1.0,1.0029297732012565,1.0011208768400728
+
+# min = 1.0, max = 1.011583243989191, Speedup = True

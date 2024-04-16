@@ -1,0 +1,41 @@
+=cluster;clk=1GHz;clk=4GHz
+colors=black,yellow
+ylabel=Speedup
+ymax=4.0
+ymin=0.0
+#specify the width and height of the generated bar graph
+figsize=70,15
+rotateby=-90
+fontsize=70
+x_label_size=70
+y_label_size=90
+=horizontal_legend
+legend_loc=center left
+groupfont=90
+group_rotateby=0
+supergroupfont=90
+ncol=1
+=valuelabel
+grid_linewidth=2
+
+=table,
+supergroup=mediabench
+adpcmdecode,1.0,3.7440400655982895
+adpcmencode,1.0,3.8849548963799565
+epic,1.0,3.9659084011259536
+unepic,1.0,3.793449402541376
+g721decode,1.0,3.9929747904611963
+g721encode,1.0,3.993594136879537
+ghostsript,1.0,3.954730433803378
+gsmdecode,1.0,3.9622843573425715
+gsmencode,1.0,3.9873413086200804
+jpegdecode,1.0,3.519497245087441
+jpegencode,1.0,3.859705003340887
+mesamipmap,1.0,3.873456448346213
+mesaosdemo,1.0,3.7341436860816573
+mesatexgen,1.0,3.913859514616869
+mpeg2decode,1.0,3.971400530900846
+mpeg2encode,1.0,3.9838950457554843
+gmean,1.0,3.881331132094449
+
+# min = 1.0, max = 3.993594136879537, Speedup = True

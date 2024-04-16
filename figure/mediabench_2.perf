@@ -1,0 +1,41 @@
+=cluster;CPUWidth=8;CPUWidth=4
+colors=black,yellow
+ylabel=Slowdown
+ymax=1.03
+ymin=0.99
+#specify the width and height of the generated bar graph
+figsize=70,15
+rotateby=-90
+fontsize=70
+x_label_size=70
+y_label_size=90
+=horizontal_legend
+legend_loc=upper left
+groupfont=90
+group_rotateby=0
+supergroupfont=90
+ncol=6
+=valuelabel
+grid_linewidth=2
+
+=table,
+supergroup=mediabench
+adpcmdecode,1.0,1.0008099795775052
+adpcmencode,1.0,1.0109416158929936
+epic,1.0,1.0096298844915734
+unepic,1.0,1.0202385912183067
+g721decode,1.0,1.0025521032583065
+g721encode,1.0,1.0050839588043183
+ghostsript,1.0,1.012455691357778
+gsmdecode,1.0,1.0005627589558825
+gsmencode,1.0,1.003140135803495
+jpegdecode,1.0,1.0071555940542871
+jpegencode,1.0,1.020949290488337
+mesamipmap,1.0,1.022325903199827
+mesaosdemo,1.0,1.0466686563907048
+mesatexgen,1.0,1.0182915562423034
+mpeg2decode,1.0,1.0057032686816765
+mpeg2encode,1.0,1.0023273600230702
+gmean,1.0,1.0117372471583959
+
+# min = 1.0, max = 1.0466686563907048, Speedup = False

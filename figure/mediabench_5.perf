@@ -1,0 +1,41 @@
+=cluster;block=64B;block=128B
+colors=black,yellow
+ylabel=Speedup
+ymax=1.022
+ymin=0.99
+#specify the width and height of the generated bar graph
+figsize=70,15
+rotateby=-90
+fontsize=70
+x_label_size=70
+y_label_size=90
+=horizontal_legend
+legend_loc=upper left
+groupfont=90
+group_rotateby=0
+supergroupfont=90
+ncol=1
+=valuelabel
+grid_linewidth=2
+
+=table,
+supergroup=mediabench
+adpcmdecode,1.0,1.0073341711697403
+adpcmencode,1.0,1.0032602459016393
+epic,1.0,1.0045835161938332
+unepic,1.0,1.017260386478931
+g721decode,1.0,1.000083970805788
+g721encode,1.0,0.9998995553357435
+ghostsript,1.0,1.000997741482744
+gsmdecode,1.0,1.001064479557179
+gsmencode,1.0,0.9999961000380498
+jpegdecode,1.0,1.0196557422786696
+jpegencode,1.0,1.010218064582968
+mesamipmap,1.0,1.0111337627947246
+mesaosdemo,1.0,1.0210499910880027
+mesatexgen,1.0,1.000850666747327
+mpeg2decode,1.0,1.0003581769700314
+mpeg2encode,1.0,1.0006339145760865
+gmean,1.0,1.0061228204258044
+
+# min = 0.9998995553357435, max = 1.0210499910880027, Speedup = True
