@@ -85,16 +85,16 @@ grid_linewidth=2
 
 ![mediabench_7](img/mediabench_7.png)
 
-![mibench_1](img/mediabench_1.png)
+![mibench_1](img/mibench_1.png)
 
-![mibench_2](img/mediabench_2.png)
+![mibench_2](img/mibench_2.png)
 
-![mibench_3](img/mediabench_3.png)
+![mibench_3](img/mibench_3.png)
 
-![mibench_4](img/mediabench_4.png)
+![mibench_4](img/mibench_4.png)
 
-![mibench_5](img/mediabench_5.png)
+![mibench_5](img/mibench_5.png)
 
-![mibench_6](img/mediabench_6.png)
+![mibench_6](img/mibench_6.png)
 
-![mibench_7](img/mediabench_7.png)
+![mibench_7](img/mibench_7.png)
