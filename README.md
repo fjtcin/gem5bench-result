@@ -71,30 +71,67 @@ grid_linewidth=2
 
 ## Example Benchmark Results
 
+There is one baseline (setting #0) and 10 experiments based on the armv7a system. Implementation details can be found at the [gem5bench](https://github.com/fjtcin/gem5bench) project.
+
+| Setting # | CPU Width | CPU CLK | L1D Size | L1D Assoc | L1D MSHRs | L1I Size | L1I Assoc | L1I MSHRs | L2 Size | L2 Assoc | L2 MSHRs | L2 Policy | Block Size |
+|-----------|-----------|---------|----------|-----------|-----------|----------|-----------|-----------|---------|----------|----------|-----------|------------|
+| 0         | 8         | 1GHz    | 32KiB    | 2         | 6         | 32KiB    | 2         | 2         | 1MiB    | 16       | 16       | Random    | 64B        |
+| 1         | 8         | 1GHz    | 32KiB    | 2         | 2         | 32KiB    | 2         | 2         | 1MiB    | 16       | 2        | Random    | 64B        |
+| 2         | 8         | 1GHz    | 32KiB    | 2         | 2         | 32KiB    | 2         | 2         | 1MiB    | 16       | 16       | Random    | 64B        |
+| 3         | 4         | 1GHz    | 32KiB    | 2         | 6         | 32KiB    | 2         | 2         | 1MiB    | 16       | 16       | Random    | 64B        |
+| 4         | 8         | 4GHz    | 32KiB    | 2         | 6         | 32KiB    | 2         | 2         | 1MiB    | 16       | 16       | Random    | 64B        |
+| 5         | 8         | 1GHz    | 64KiB    | 2         | 6         | 64KiB    | 2         | 2         | 1MiB    | 16       | 16       | Random    | 64B        |
+| 6         | 8         | 1GHz    | 32KiB    | 2         | 6         | 32KiB    | 2         | 2         | 2MiB    | 16       | 16       | Random    | 64B        |
+| 7         | 8         | 1GHz    | 32KiB    | 2         | 6         | 32KiB    | 2         | 2         | 1MiB    | 16       | 16       | Random    | 128B       |
+| 8         | 8         | 1GHz    | 32KiB    | 2         | 6         | 32KiB    | 2         | 2         | 1MiB    | 16       | 16       | LRU       | 64B        |
+| 9         | 8         | 1GHz    | 32KiB    | 4         | 6         | 32KiB    | 4         | 2         | 1MiB    | 16       | 16       | Random    | 64B        |
+| 10        | 8         | 1GHz    | 32KiB    | 2         | 6         | 32KiB    | 2         | 2         | 1MiB    | 4        | 16       | Random    | 64B        |
+
+### Group 1
+
+In group 1, we draw a comparison between the baseline, setting #1 and setting #2.
+
 ![mediabench_1](img/mediabench_1.png)
-
-![mediabench_2](img/mediabench_2.png)
-
-![mediabench_3](img/mediabench_3.png)
-
-![mediabench_4](img/mediabench_4.png)
-
-![mediabench_5](img/mediabench_5.png)
-
-![mediabench_6](img/mediabench_6.png)
-
-![mediabench_7](img/mediabench_7.png)
-
 ![mibench_1](img/mibench_1.png)
 
+### Group 2
+
+In group 2, we draw a comparison between the baseline and setting #3.
+
+![mediabench_2](img/mediabench_2.png)
 ![mibench_2](img/mibench_2.png)
 
+### Group 3
+
+In group 3, we draw a comparison between the baseline and setting #4.
+
+![mediabench_3](img/mediabench_3.png)
 ![mibench_3](img/mibench_3.png)
 
+### Group 4
+
+In group 4, we draw a comparison between the baseline, setting #5 and setting #6.
+
+![mediabench_4](img/mediabench_4.png)
 ![mibench_4](img/mibench_4.png)
 
+### Group 5
+
+In group 5, we draw a comparison between the baseline and setting #7.
+
+![mediabench_5](img/mediabench_5.png)
 ![mibench_5](img/mibench_5.png)
 
+### Group 6
+
+In group 6, we draw a comparison between the baseline and setting #8.
+
+![mediabench_6](img/mediabench_6.png)
 ![mibench_6](img/mibench_6.png)
 
+### Group 7
+
+In group 7, we draw a comparison between the baseline, setting #9 and setting #10.
+
+![mediabench_7](img/mediabench_7.png)
 ![mibench_7](img/mibench_7.png)
